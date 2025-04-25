@@ -1,5 +1,5 @@
-**Digital Clock Project
-**
+**Digital Clock Project**
+
 ⏰ A simple digital clock built with HTML, CSS, and JavaScript.
 
 ![0425](https://github.com/user-attachments/assets/2d281390-34dc-4de9-bdf8-261d5f37e2ba)
