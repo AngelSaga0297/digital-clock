@@ -5,26 +5,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Digital-7'
-
+    font-family: 'Digital-7';
 }
 
 .clock-box {
     background:rgba(0, 0, 0, 0.1);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 37);
-    padding: 30px 50px;
+    padding: min(2.5rem, 8%);
     border-radius: 20px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     color: #14831a;
-    font-size: 3rem;
+    font-size: clamp(1.8rem, 10vw, 5rem);
     letter-spacing: 2px;
     text-align: center;
-
+    
     .digital-date{
-        font-size: 2rem;
+        font-size: clamp(1rem, 6vw, 4rem);
     }
 }
-
 
