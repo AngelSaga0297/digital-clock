@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background: linear-gradient(12deg,#000000,#111111,#0d3809);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Digital-7'
+
+}
+
+.clock-box {
+    background:rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 37);
+    padding: 30px 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #14831a;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+
+    .digital-date{
+        font-size: 2rem;
+    }
+}
+
+
